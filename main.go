@@ -14,7 +14,7 @@ func main() {
 	flag.StringVar(&query, "q", "Small wild cat", "search query")
 	flag.Parse()
 
-	log.Println("Starting simplefts")
+	log.Println("Running Full Text Search")
 
 	start := time.Now()
 	docs, err := utils.LoadDocuments(dumpPath)
